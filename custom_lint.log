@@ -1,0 +1,158 @@
+The Dart VM service is listening on http://127.0.0.1:56400/NyMWO-IIzSk=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:56400/NyMWO-IIzSk=/devtools?uri=ws://127.0.0.1:56400/NyMWO-IIzSk=/ws
+The Dart VM service is listening on http://127.0.0.1:56429/LyjGFEPVPW4=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:56429/LyjGFEPVPW4=/devtools?uri=ws://127.0.0.1:56429/LyjGFEPVPW4=/ws
+[functional_ref] 2023-09-18T07:30:26.855531 Plugin functional_ref threw while analyzing /Users/marcinwojnarowski/coding/temp/riverpod_lint_unknown_provider/lib/riverpod_lint_unknown_provider.dart:
+[functional_ref] 2023-09-18T07:30:26.855531 Bad state: Unknown provider type BlocProvider<C, int>
+[functional_ref] 2023-09-18T07:30:26.855531 #0      LegacyProviderType._parse (package:riverpod_analyzer_utils/src/riverpod_element.dart:180:5)
+[functional_ref] 2023-09-18T07:30:26.855531 #1      LegacyProviderDeclarationElement.parse.<anonymous closure> (package:riverpod_analyzer_utils/src/riverpod_element.dart:213:43)
+[functional_ref] 2023-09-18T07:30:26.855531 #2      _extension#0.putIfAbsent (package:riverpod_analyzer_utils/src/riverpod_element.dart:382:42)
+[functional_ref] 2023-09-18T07:30:26.855531 #3      LegacyProviderDeclarationElement.parse (package:riverpod_analyzer_utils/src/riverpod_element.dart:197:19)
+[functional_ref] 2023-09-18T07:30:26.855531 #4      LegacyProviderDeclaration._parse (package:riverpod_analyzer_utils/src/riverpod_ast/legacy_provider_declaration.dart:105:62)
+[functional_ref] 2023-09-18T07:30:26.855531 #5      _ParseRiverpodUnitVisitor.visitVariableDeclaration (package:riverpod_analyzer_utils/src/riverpod_ast/resolve_riverpod.dart:240:51)
+[functional_ref] 2023-09-18T07:30:26.855531 #6      VariableDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:18757:50)
+[functional_ref] 2023-09-18T07:30:26.855531 #7      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:12998:20)
+[functional_ref] 2023-09-18T07:30:26.855531 #8      VariableDeclarationListImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:18900:16)
+[functional_ref] 2023-09-18T07:30:26.855531 #9      RecursiveAstVisitor.visitVariableDeclarationList (package:analyzer/dart/ast/visitor.dart:1780:10)
+[functional_ref] 2023-09-18T07:30:26.855531 #10     VariableDeclarationListImpl.accept (package:analyzer/src/dart/ast/ast.dart:18894:15)
+[functional_ref] 2023-09-18T07:30:26.855531 #11     TopLevelVariableDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:17963:19)
+[functional_ref] 2023-09-18T07:30:26.855531 #12     RecursiveAstVisitor.visitTopLevelVariableDeclaration (package:analyzer/dart/ast/visitor.dart:1738:10)
+[functional_ref] 2023-09-18T07:30:26.855531 #13     TopLevelVariableDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:17958:15)
+[functional_ref] 2023-09-18T07:30:26.855531 #14     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:12998:20)
+[functional_ref] 2023-09-18T07:30:26.855531 #15     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3631:21)
+[functional_ref] 2023-09-18T07:30:26.855531 #16     RecursiveAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:942:10)
+[functional_ref] 2023-09-18T07:30:26.855531 #17     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3624:50)
+[functional_ref] 2023-09-18T07:30:26.855531 #18     new ResolvedRiverpodLibraryResult.from (package:riverpod_analyzer_utils/src/riverpod_ast/resolve_riverpod.dart:16:14)
+[functional_ref] 2023-09-18T07:30:26.855531 #19     _ParseRiverpod._setupRiverpod (package:riverpod_lint/src/riverpod_custom_lint.dart:90:50)
+[functional_ref] 2023-09-18T07:30:26.855531 <asynchronous suspension>
+[functional_ref] 2023-09-18T07:30:26.855531 #20     RiverpodLintRule.startUp (package:riverpod_lint/src/riverpod_custom_lint.dart:62:5)
+[functional_ref] 2023-09-18T07:30:26.855531 <asynchronous suspension>
+[functional_ref] 2023-09-18T07:30:26.855531
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:Bad state: Unknown provider type BlocProvider<C, int>
+#0      LegacyProviderType._parse (package:riverpod_analyzer_utils/src/riverpod_element.dart:180:5)
+#1      LegacyProviderDeclarationElement.parse.<anonymous closure> (package:riverpod_analyzer_utils/src/riverpod_element.dart:213:43)
+#2      _extension#0.putIfAbsent (package:riverpod_analyzer_utils/src/riverpod_element.dart:382:42)
+#3      LegacyProviderDeclarationElement.parse (package:riverpod_analyzer_utils/src/riverpod_element.dart:197:19)
+#4      LegacyProviderDeclaration._parse (package:riverpod_analyzer_utils/src/riverpod_ast/legacy_provider_declaration.dart:105:62)
+#5      _ParseRiverpodUnitVisitor.visitVariableDeclaration (package:riverpod_analyzer_utils/src/riverpod_ast/resolve_riverpod.dart:240:51)
+#6      VariableDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:18757:50)
+#7      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:12998:20)
+#8      VariableDeclarationListImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:18900:16)
+#9      RecursiveAstVisitor.visitVariableDeclarationList (package:analyzer/dart/ast/visitor.dart:1780:10)
+#10     VariableDeclarationListImpl.accept (package:analyzer/src/dart/ast/ast.dart:18894:15)
+#11     TopLevelVariableDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:17963:19)
+#12     RecursiveAstVisitor.visitTopLevelVariableDeclaration (package:analyzer/dart/ast/visitor.dart:1738:10)
+#13     TopLevelVariableDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:17958:15)
+#14     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:12998:20)
+#15     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3631:21)
+#16     RecursiveAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:942:10)
+#17     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3624:50)
+#18     new ResolvedRiverpodLibraryResult.from (package:riverpod_analyzer_utils/src/riverpod_ast/resolve_riverpod.dart:16:14)
+#19     _ParseRiverpod._setupRiverpod (package:riverpod_lint/src/riverpod_custom_lint.dart:90:50)
+<asynchronous suspension>
+#20     RiverpodLintRule.startUp (package:riverpod_lint/src/riverpod_custom_lint.dart:62:5)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:275:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:269:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:246:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:141:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+[functional_ref] 2023-09-18T07:30:39.462594 Plugin functional_ref threw while analyzing /Users/marcinwojnarowski/coding/temp/riverpod_lint_unknown_provider/lib/riverpod_lint_unknown_provider.dart:
+[functional_ref] 2023-09-18T07:30:39.462594 Bad state: Unknown provider type BlocProvider<C, int>
+[functional_ref] 2023-09-18T07:30:39.462594 #0      LegacyProviderType._parse (package:riverpod_analyzer_utils/src/riverpod_element.dart:180:5)
+[functional_ref] 2023-09-18T07:30:39.462594 #1      LegacyProviderDeclarationElement.parse.<anonymous closure> (package:riverpod_analyzer_utils/src/riverpod_element.dart:213:43)
+[functional_ref] 2023-09-18T07:30:39.462594 #2      _extension#0.putIfAbsent (package:riverpod_analyzer_utils/src/riverpod_element.dart:382:42)
+[functional_ref] 2023-09-18T07:30:39.462594 #3      LegacyProviderDeclarationElement.parse (package:riverpod_analyzer_utils/src/riverpod_element.dart:197:19)
+[functional_ref] 2023-09-18T07:30:39.462594 #4      LegacyProviderDeclaration._parse (package:riverpod_analyzer_utils/src/riverpod_ast/legacy_provider_declaration.dart:105:62)
+[functional_ref] 2023-09-18T07:30:39.462594 #5      _ParseRiverpodUnitVisitor.visitVariableDeclaration (package:riverpod_analyzer_utils/src/riverpod_ast/resolve_riverpod.dart:240:51)
+[functional_ref] 2023-09-18T07:30:39.462594 #6      VariableDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:18757:50)
+[functional_ref] 2023-09-18T07:30:39.462594 #7      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:12998:20)
+[functional_ref] 2023-09-18T07:30:39.462594 #8      VariableDeclarationListImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:18900:16)
+[functional_ref] 2023-09-18T07:30:39.462594 #9      RecursiveAstVisitor.visitVariableDeclarationList (package:analyzer/dart/ast/visitor.dart:1780:10)
+[functional_ref] 2023-09-18T07:30:39.462594 #10     VariableDeclarationListImpl.accept (package:analyzer/src/dart/ast/ast.dart:18894:15)
+[functional_ref] 2023-09-18T07:30:39.462594 #11     TopLevelVariableDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:17963:19)
+[functional_ref] 2023-09-18T07:30:39.462594 #12     RecursiveAstVisitor.visitTopLevelVariableDeclaration (package:analyzer/dart/ast/visitor.dart:1738:10)
+[functional_ref] 2023-09-18T07:30:39.462594 #13     TopLevelVariableDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:17958:15)
+[functional_ref] 2023-09-18T07:30:39.462594 #14     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:12998:20)
+[functional_ref] 2023-09-18T07:30:39.462594 #15     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3631:21)
+[functional_ref] 2023-09-18T07:30:39.462594 #16     RecursiveAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:942:10)
+[functional_ref] 2023-09-18T07:30:39.462594 #17     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3624:50)
+[functional_ref] 2023-09-18T07:30:39.462594 #18     new ResolvedRiverpodLibraryResult.from (package:riverpod_analyzer_utils/src/riverpod_ast/resolve_riverpod.dart:16:14)
+[functional_ref] 2023-09-18T07:30:39.462594 #19     _ParseRiverpod._setupRiverpod (package:riverpod_lint/src/riverpod_custom_lint.dart:90:50)
+[functional_ref] 2023-09-18T07:30:39.462594 <asynchronous suspension>
+[functional_ref] 2023-09-18T07:30:39.462594 #20     RiverpodLintRule.startUp (package:riverpod_lint/src/riverpod_custom_lint.dart:62:5)
+[functional_ref] 2023-09-18T07:30:39.462594 <asynchronous suspension>
+[functional_ref] 2023-09-18T07:30:39.462594
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request throw the exception:Bad state: Unknown provider type BlocProvider<C, int>
+#0      LegacyProviderType._parse (package:riverpod_analyzer_utils/src/riverpod_element.dart:180:5)
+#1      LegacyProviderDeclarationElement.parse.<anonymous closure> (package:riverpod_analyzer_utils/src/riverpod_element.dart:213:43)
+#2      _extension#0.putIfAbsent (package:riverpod_analyzer_utils/src/riverpod_element.dart:382:42)
+#3      LegacyProviderDeclarationElement.parse (package:riverpod_analyzer_utils/src/riverpod_element.dart:197:19)
+#4      LegacyProviderDeclaration._parse (package:riverpod_analyzer_utils/src/riverpod_ast/legacy_provider_declaration.dart:105:62)
+#5      _ParseRiverpodUnitVisitor.visitVariableDeclaration (package:riverpod_analyzer_utils/src/riverpod_ast/resolve_riverpod.dart:240:51)
+#6      VariableDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:18757:50)
+#7      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:12998:20)
+#8      VariableDeclarationListImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:18900:16)
+#9      RecursiveAstVisitor.visitVariableDeclarationList (package:analyzer/dart/ast/visitor.dart:1780:10)
+#10     VariableDeclarationListImpl.accept (package:analyzer/src/dart/ast/ast.dart:18894:15)
+#11     TopLevelVariableDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:17963:19)
+#12     RecursiveAstVisitor.visitTopLevelVariableDeclaration (package:analyzer/dart/ast/visitor.dart:1738:10)
+#13     TopLevelVariableDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:17958:15)
+#14     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:12998:20)
+#15     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3631:21)
+#16     RecursiveAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:942:10)
+#17     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3624:50)
+#18     new ResolvedRiverpodLibraryResult.from (package:riverpod_analyzer_utils/src/riverpod_ast/resolve_riverpod.dart:16:14)
+#19     _ParseRiverpod._setupRiverpod (package:riverpod_lint/src/riverpod_custom_lint.dart:90:50)
+<asynchronous suspension>
+#20     RiverpodLintRule.startUp (package:riverpod_lint/src/riverpod_custom_lint.dart:62:5)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:275:11)
+#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:269:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:246:22)
+<asynchronous suspension>
+#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:141:5)
+<asynchronous suspension>
+#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)
+<asynchronous suspension>
+#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)
+<asynchronous suspension>
+#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)
+<asynchronous suspension>
+
+[custom_lint] 2023-09-18T07:30:39.468404 _PrettyRequestFailure: {"code":"PLUGIN_ERROR","message":"A request throw the exception:Bad state: Unknown provider type BlocProvider<C, int>\n#0      LegacyProviderType._parse (package:riverpod_analyzer_utils/src/riverpod_element.dart:180:5)\n#1      LegacyProviderDeclarationElement.parse.<anonymous closure> (package:riverpod_analyzer_utils/src/riverpod_element.dart:213:43)\n#2      _extension#0.putIfAbsent (package:riverpod_analyzer_utils/src/riverpod_element.dart:382:42)\n#3      LegacyProviderDeclarationElement.parse (package:riverpod_analyzer_utils/src/riverpod_element.dart:197:19)\n#4      LegacyProviderDeclaration._parse (package:riverpod_analyzer_utils/src/riverpod_ast/legacy_provider_declaration.dart:105:62)\n#5      _ParseRiverpodUnitVisitor.visitVariableDeclaration (package:riverpod_analyzer_utils/src/riverpod_ast/resolve_riverpod.dart:240:51)\n#6      VariableDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:18757:50)\n#7      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:12998:20)\n#8      VariableDeclarationListImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:18900:16)\n#9      RecursiveAstVisitor.visitVariableDeclarationList (package:analyzer/dart/ast/visitor.dart:1780:10)\n#10     VariableDeclarationListImpl.accept (package:analyzer/src/dart/ast/ast.dart:18894:15)\n#11     TopLevelVariableDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:17963:19)\n#12     RecursiveAstVisitor.visitTopLevelVariableDeclaration (package:analyzer/dart/ast/visitor.dart:1738:10)\n#13     TopLevelVariableDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:17958:15)\n#14     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:12998:20)\n#15     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3631:21)\n#16     RecursiveAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:942:10)\n#17     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3624:50)\n#18     new ResolvedRiverpodLibraryResult.from (package:riverpod_analyzer_utils/src/riverpod_ast/resolve_riverpod.dart:16:14)\n#19     _ParseRiverpod._setupRiverpod (package:riverpod_lint/src/riverpod_custom_lint.dart:90:50)\n<asynchronous suspension>\n#20     RiverpodLintRule.startUp (package:riverpod_lint/src/riverpod_custom_lint.dart:62:5)\n<asynchronous suspension>\n","stackTrace":"#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:275:11)\n#1      _$_CustomLintResponseAnalyzerPluginResponse.map (package:custom_lint/src/v2/protocol.freezed.dart:924:34)\n#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:269:14)\n<asynchronous suspension>\n#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:246:22)\n<asynchronous suspension>\n#4      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)\n<asynchronous suspension>\n#5      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:141:5)\n<asynchronous suspension>\n#6      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:364:5)\n<asynchronous suspension>\n#7      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:328:9)\n<asynchronous suspension>\n#8      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)\n<asynchronous suspension>\n#9      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:160:22)\n<asynchronous suspension>\n"}
+[custom_lint] 2023-09-18T07:30:39.468404 #0      ChannelBase.sendRequest (package:custom_lint/src/server_isolate_channel.dart:82:7)
+[custom_lint] 2023-09-18T07:30:39.468404 <asynchronous suspension>
+[custom_lint] 2023-09-18T07:30:39.468404 #1      CustomLintRunner.initialize.<anonymous closure> (package:custom_lint/src/runner.dart:51:5)
+[custom_lint] 2023-09-18T07:30:39.468404 <asynchronous suspension>
+[custom_lint] 2023-09-18T07:30:39.468404 #2      _runServer.<anonymous closure> (package:custom_lint/custom_lint.dart:89:7)
+[custom_lint] 2023-09-18T07:30:39.468404 <asynchronous suspension>
+[custom_lint] 2023-09-18T07:30:39.468404
